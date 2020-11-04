@@ -23,9 +23,14 @@ body {
   margin: 40px;
   padding: 40px;
   background:#4F4F4F;
+  border-radius: 40px;
+  border: 10px solid #b10dca;
 }
 
 .btn {
   margin: auto;
   display: block;
+}
+.setup, .punchline {
+  margin: 10px;
 }
