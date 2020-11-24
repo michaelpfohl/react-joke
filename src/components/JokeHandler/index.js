@@ -29,7 +29,7 @@ class JokeHandler extends Component {
     jokeData.getJoke().then((response) => {
       this.setState({
         joke: response,
-        jokeState: 'no-joke',
+        jokeState: 'setup',
       });
     });
   };
